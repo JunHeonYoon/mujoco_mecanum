@@ -22,7 +22,6 @@ In [macro](wheel_code_gen.py) code, there are some parameters that can be custom
   5. diag_inertia: diagonal inertia of a wheel [ixx, iyy, izz]
   6. size: size of a wheel [radius, height]
   7. type: type of a wheel (1 or 2)
-  8. --link_name", type=str, default="mecanum", help="link name of a wheel")
 
 ```bash
 python3 wheel_code_gen.py --link_name mecanum 
