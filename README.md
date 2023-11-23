@@ -28,7 +28,7 @@ In [macro](wheel_code_gen.py) code, there are some parameters that can be custom
 python3 wheel_code_gen.py --link_name mecanum 
 ```
 
-After running this code, you can get `wheel.xml`. Using this, you can implement collision model ofmecanum wheel.
+After running this code, you can get `wheel.xml`. Using this, you can implement collision model of mecanum wheel.
 
 
 # Example
