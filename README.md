@@ -53,4 +53,4 @@ Rather than using velocity, use force based actuator.
 And in controller code, you can control wheel by PID controller like this [code](summit_test).
 
 # License
-`mujoco mecanum`is releasd under MIT license. Please see the LICENSE file for more information.
+`mujoco mecanum`is releasd under MIT license. Please see the [LICENSE](LICENSE) file for more information.
