@@ -1,0 +1,10 @@
+<mujoco model="summit_xls">
+    <include file="assets/assets.xml"/>
+    
+    <worldbody>
+        <include file="assets/basic_scene.xml" />    
+        <include file="assets/summit_xls.urdf.xml" />    
+    </worldbody>
+
+    <include file = 'assets/summit_xls_actuator.xml' />
+</mujoco>

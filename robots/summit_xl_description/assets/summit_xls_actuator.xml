@@ -1,0 +1,10 @@
+<mujocoinclude>
+
+    <actuator>
+        <motor name="front_right_wheel_rolling_joint" joint="front_right_wheel_rolling_joint" ctrlrange="-10 10"/>
+        <motor name="front_left_wheel_rolling_joint"  joint="front_left_wheel_rolling_joint"  ctrlrange="-10 10"/>
+        <motor name="back_right_wheel_rolling_joint"  joint="back_right_wheel_rolling_joint"  ctrlrange="-10 10"/>
+        <motor name="back_left_wheel_rolling_joint"   joint="back_left_wheel_rolling_joint"   ctrlrange="-10 10"/>
+    </actuator>
+
+</mujocoinclude>

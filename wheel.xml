@@ -1,0 +1,78 @@
+<body name="mecanum_wheel_intermediate_link" pos="0 0 0">
+    <inertial pos="0 0 0" quat="0.707107 0 0 0.707107" mass="6.5" diaginertia="0.0524193 0.0303095 0.0303095" />
+    <joint name="R1_mecanum_wheel_rolling_joint" pos="0 0 0" axis="0 1 0" />
+    <geom size="0.12 0.0435" quat="0.707107 0.707107 0 0" type="cylinder" rgba="0.2 0.2 0.2 0.5" contype="1" conaffinity="0"/>
+    
+
+    <body name="mecanum_roller_0_link" pos="0.0414345798320639 0.0 -0.011102362204724419">
+        <joint name="mecanum_slipping_0_joint" type="hinge" pos="0 0 0" axis="-0.005949737973667463 0.0435 -0.022204724409448838" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_1_link" pos="0.04143457983206391 0.0 0.011102362204724407">
+        <joint name="mecanum_slipping_1_joint" type="hinge" pos="0 0 0" axis="0.005949737973667449 0.0435 -0.022204724409448814" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_2_link" pos="0.0303322176273395 0.0 0.0303322176273395">
+        <joint name="mecanum_slipping_2_joint" type="hinge" pos="0 0 0" axis="0.016254986435781365 0.0435 -0.016254986435781372" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_3_link" pos="0.011102362204724412 0.0 0.04143457983206391">
+        <joint name="mecanum_slipping_3_joint" type="hinge" pos="0 0 0" axis="0.022204724409448817 0.0435 -0.005949737973667449" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_4_link" pos="-0.011102362204724402 0.0 0.04143457983206391">
+        <joint name="mecanum_slipping_4_joint" type="hinge" pos="0 0 0" axis="0.02220472440944881 0.0435 0.005949737973667449" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_5_link" pos="-0.030332217627339494 0.0 0.03033221762733951">
+        <joint name="mecanum_slipping_5_joint" type="hinge" pos="0 0 0" axis="0.016254986435781372 0.0435 0.016254986435781354" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_6_link" pos="-0.0414345798320639 0.0 0.011102362204724417">
+        <joint name="mecanum_slipping_6_joint" type="hinge" pos="0 0 0" axis="0.005949737973667456 0.0435 0.022204724409448824" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_7_link" pos="-0.04143457983206392 0.0 -0.011102362204724398">
+        <joint name="mecanum_slipping_7_joint" type="hinge" pos="0 0 0" axis="-0.005949737973667442 0.0435 0.02220472440944881" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_8_link" pos="-0.030332217627339515 0.0 -0.030332217627339488">
+        <joint name="mecanum_slipping_8_joint" type="hinge" pos="0 0 0" axis="-0.016254986435781354 0.0435 0.01625498643578137" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_9_link" pos="-0.011102362204724424 0.0 -0.0414345798320639">
+        <joint name="mecanum_slipping_9_joint" type="hinge" pos="0 0 0" axis="-0.02220472440944883 0.0435 0.005949737973667463" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_10_link" pos="0.01110236220472439 0.0 -0.04143457983206392">
+        <joint name="mecanum_slipping_10_joint" type="hinge" pos="0 0 0" axis="-0.022204724409448793 0.0435 -0.005949737973667428" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+
+    <body name="mecanum_roller_11_link" pos="0.03033221762733948 0.0 -0.030332217627339522">
+        <joint name="mecanum_slipping_11_joint" type="hinge" pos="0 0 0" axis="-0.016254986435781386 0.0435 -0.01625498643578137" damping="0.1" limited="false" actuatorfrclimited="false"/>
+        <inertial pos="0 0 0" quat="0.711549 0.711549 0 0 " mass="0.001" diaginertia="0.00001 0.00001 0.00001" />
+        <geom size="0.12" quat="1 0 0 0" type="sphere" rgba="0.2 0.2 0.2 1" contype="1" conaffinity="0"/>
+    </body>
+</body>

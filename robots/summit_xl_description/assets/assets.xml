@@ -1,0 +1,20 @@
+<mujocoinclude>
+
+    <compiler angle="radian" autolimits="true" meshdir = "./meshes"/>
+    <statistic meansize="0.767828" extent="17.3945" center="-1.30273 -0.281443 0.819464" />
+
+    <asset>
+        <texture name="texplane" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 0.2 0.3" width="512" height="512"/>
+        <material name="MatGnd" reflectance="0.5" texture="texplane" texrepeat="1 1" texuniform="true"/>
+    </asset>
+    
+    <asset>
+        <mesh name="summit_xls_chassis" file="bases/xls/summit_xls_chassis.stl" />
+        <mesh name="summit_xls_chapas_inox_tapas" file="bases/xls/summit_xls_chapas_inox_tapas.stl" />
+        <mesh name="robotnik_logo_chasis" file="bases/xls/robotnik_logo_chasis.stl" />
+        <mesh name="summit_xls_omni_wheel_1" file="wheels/omni_wheel_1.stl" />
+        <mesh name="summit_xls_omni_wheel_2" file="wheels/omni_wheel_2.stl" />
+        <mesh name="structure_hokuyo" file="structures/structure_hokuyo.stl" />
+    </asset>
+
+</mujocoinclude>
