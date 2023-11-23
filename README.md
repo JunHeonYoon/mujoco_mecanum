@@ -1,4 +1,9 @@
 # mujoco_mecanum
+
+This code implements the collision model of Mecanum wheels to mimic the actual driving behavior of wheels.
+
+By using macro file, users can develop their robot model easily.
+
 - Mecamum wheel model (visual and collision) for Mujoco.
 - Python3 based [macro](wheel_code_gen.py)
 - Example code about SUMMIT-XL STEEL
