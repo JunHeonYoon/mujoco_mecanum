@@ -50,7 +50,7 @@ Rather than using velocity, use force based actuator.
   <motor name="mecanum_wheel_joint" .../>
 </actuator>
 ```
-And in controller code, you can control wheel by PID controller like this [code](summit_test).
+And in controller code, you can control wheel by PID controller like this [code](summit_test.py).
 
 # License
 `mujoco mecanum`is releasd under MIT license. Please see the [LICENSE](LICENSE) file for more information.
